@@ -14,7 +14,7 @@ void main(){
     struct person people [101];
     int count = 0;
     struct person single;
-    f= open()//give back integer
+    //f= open()//give back integer
     ifp = fopen("data.txt","r");
     float sum = 0;
     float max = 0;
