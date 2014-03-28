@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+void main(){
+    File *fp;
+    fp = fopen("data.txt",r);
+    
+}

@@ -7,7 +7,7 @@
 void main(){
     int value;
     int num [10000] = {0};
-    int d2 [1000000] ={0};
+    int d2 [10000000] ={0};
     int count = 0;
     int d2count = 0;
     int flag = 0;
@@ -18,7 +18,7 @@ void main(){
         if (flag==0){
             num[count] = value;
             count += 1;
-            
+
             if (count>2){
                 for (i=0;i<d2count;i++){
                     if (value+d2[i]==100){
@@ -27,7 +27,7 @@ void main(){
                     }
                 }
             }
-            
+
             if (count>1 && flag == 0){
                 for (i=0;i<count-1;i++){
                     d2[d2count]=value+num[i];
@@ -35,7 +35,7 @@ void main(){
                     //printf("%d\n",d2[d2count-1]);
                 }
             }
-            
+
 
         }
 
