@@ -1,5 +1,6 @@
 // COMP2300 Lab4
 // By Huang Geyang
+// use system call open and read in future
 #include <stdio.h>
 
 struct person{
@@ -13,6 +14,7 @@ void main(){
     struct person people [101];
     int count = 0;
     struct person single;
+    f= open()//give back integer
     ifp = fopen("data.txt","r");
     float sum = 0;
     float max = 0;
@@ -27,5 +29,5 @@ void main(){
     }
 
 
-    printf("Of the %d people the average height is %fm, the tallest person is Jill at %fm, and shortest is Bill at %fm.\n", count, sum/count, max, min);
+    printf("Of the %d people the average height is %2.1fm, the tallest person is Jill at %2.1fm, and shortest is Bill at %2.1fm.\n", count, sum/count, max, min);
 }
