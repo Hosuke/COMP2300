@@ -1,7 +1,7 @@
 COMP2300 Lab 4 MCQ
-1. E
-2. C
-3. A
+1. B
+2. A
+3. B
 
 a * b is a times b
 *a = b is the address a save the value of b
